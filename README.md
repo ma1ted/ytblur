@@ -1,0 +1,3 @@
+# YTBlur
+
+## Blur YouTube recommendations

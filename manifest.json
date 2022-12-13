@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+	"name": "ytblur",
+	"version": "1.0",
+
+	"description": "Blurs YouTube recommendations",
+
+	"content_scripts": [
+		{
+			"matches": ["*://*.youtube.com/*"],
+			"js": ["./index.js"]
+		}
+	]
+}
